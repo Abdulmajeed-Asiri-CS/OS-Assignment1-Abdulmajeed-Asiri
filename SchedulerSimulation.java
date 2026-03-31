@@ -78,7 +78,7 @@ class Process implements Runnable {
                           " completed quantum " + Colors.BRIGHT_YELLOW + runTime + "ms" + Colors.RESET + 
                           " │ Overall progress: " + overallProgressBar);
         System.out.println(Colors.MAGENTA + "     Remaining time: " + remainingTime + "ms" + Colors.RESET);
-        
+        int studentID = 445050104;
         // If the process still has remaining time, it yields CPU for the next process
         if (remainingTime > 0) {
             System.out.println(Colors.BLUE + "  ↻ " + Colors.CYAN + name + Colors.RESET + 
@@ -147,7 +147,7 @@ public class SchedulerSimulation {
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
-        int studentID = 123456789;  // ← CHANGE THIS TO YOUR ACTUAL STUDENT ID
+        int studentID = 445050104;  // ← CHANGE THIS TO YOUR ACTUAL STUDENT ID
         
         Random random = new Random(studentID);
         
